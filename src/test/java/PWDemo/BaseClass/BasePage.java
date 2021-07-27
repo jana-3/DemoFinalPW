@@ -27,6 +27,7 @@ public class BasePage {
 
     }
 
+
     @AfterClass
     static void browserClose(){
         browser.close();

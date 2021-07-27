@@ -15,19 +15,21 @@ public class SamplePage {
 
 
     public  void launchURL(){
-        page.navigate("http://amazon.com/");
+        page.navigate("https://opensource-demo.orangehrmlive.com/");
     }
 
 
     public  void clickLogin(){
-        page.click("#btnOpenLogin");
+
+//        page.click("#nav-tools a#nav-link-accountList");
+//        page.click("#btnOpenLogin");
     }
 
 
     public  void EnterCredentials(){
-        page.fill("#username","");
-        page.fill("#password","");
-        page.click("button.login__form__submit-btn");
+        page.fill("#divUsername #txtUsername","Admin");
+        page.fill("#divPassword #txtPassword","admin123 ");
+        page.click("#divLoginButton #btnLogin");
     }
 
 

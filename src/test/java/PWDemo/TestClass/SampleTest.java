@@ -20,22 +20,22 @@ import org.testng.annotations.Test;
             samplePage.launchURL();
         }
 
-        @Step @Test @Attachment
-        public void userClickLogin()
-        {
-            samplePage.clickLogin();
-
-        }
+//        @Step @Test @Attachment
+//        public void userClickLogin()
+//        {
+//            samplePage.clickLogin();
+//
+//        }
 
         @Step @Test @Attachment
         public void userEnterCredentials(){
             samplePage.EnterCredentials();
         }
 
-        @Step  @Test
-        public void userVerifyLoggedInPage(){
-            samplePage.verifyLoggedIn();
-        }
+//        @Step  @Test
+//        public void userVerifyLoggedInPage(){
+//            samplePage.verifyLoggedIn();
+//        }
 
     }
 
