@@ -28,7 +28,7 @@ public class SamplePage {
 
     public  void EnterCredentials(){
         page.fill("#divUsername #txtUsername","Admin");
-        page.fill("#divPassword #txtPassword","admin123 ");
+        page.fill("#divPassword #txtPassword","admin123");
         page.click("#divLoginButton #btnLogin");
     }
 
